@@ -53,6 +53,6 @@ while 1:
             scraperwiki.sqlite.save(["id"], data) 
         page = page + 1
     except Exception as e:
-        print(e,end="\\n\\n\\n\\n")
+        print(e)
         print str(page) + ' pages scraped'
         break
