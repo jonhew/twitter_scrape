@@ -31,7 +31,7 @@ import simplejson
 
 # retrieve a page
 base_url = 'http://search.twitter.com/search.json?q='
-q = '#ConMaduroAlVolante'
+q = '#trending'
 options = '&rpp=600&page='
 page = 1
 
